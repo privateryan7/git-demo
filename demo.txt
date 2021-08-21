@@ -1,0 +1,11 @@
+line1 learn how to control git version, this is the initial version.
+line2 the first time to add something on this txt.
+line3 git test, git init and git diff
+    something is wrong, i cant find my line3 in git log and git diff
+line4 learn git log and prepare for git reset
+forget git status! this time for v1.2
+line5 how git work
+line6 git tracks changes of files
+someone prefers svn, but i don't care it
+i love working, work makes me happy
+fix 100 bugs, so happy
