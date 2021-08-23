@@ -5,4 +5,4 @@ see privateryan7.githbook.io
 git commit c1
 git commit c2 and c3
 git checkout -b dev
-fast forward
+fast forward not recommend
