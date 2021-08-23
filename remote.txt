@@ -1,0 +1,14 @@
+协同开发
+
+合并远程仓库最新版本分支
+git merge origin/master
+git rebase origin/master
+git cherry-pick origin/master
+
+查看远程仓库信息: git remote -v
+本地仓库推送到远程仓库: git push origin <branch>
+远程仓库抓取到本地仓库: git fetch
+远程仓库拉取到本地仓库: git pull 相当于 git fetch 和 git merge
+本地创建和远程仓库一致的分支: git checkout -b <branch> origin/<branch>,本地和远程分支名称最好一直,比如本地 master 和 远程 origin/master,本地 dev 和远程 origin/dev
+本地分支和远程分支建立关联: git branch --set-upstream <branch> origin/<branch> ,足够任性的话,本地 dev 可以关联远程 remote-dev 等,不过建议名称最好一致.
+团队协同开发时,不仅平时要定期拉取(git pull),推送到远程仓库前更应先拉取(git pull)再推送(git push),如出现冲突,解决冲突后再推送.
