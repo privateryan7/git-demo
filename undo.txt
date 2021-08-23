@@ -1,0 +1,4 @@
+丢弃工作区更改: git restore -- <file>
+丢弃暂存区更改: git reset HEAD <file>
+丢弃本地版本库更改: git reset --hard HEAD^
+丢弃远程版本库更改: 自求多福 :D
