@@ -1,0 +1,7 @@
+暂存区
+工作区更改添加到"草稿箱" : git stash,支持多次添加到"草稿箱"
+列出"草稿箱"内容 : git stash list
+恢复"草稿箱"内容 : git stash apply
+删除"草稿箱"内容 : git stash drop
+恢复并删除"草稿箱"内容 : git stash pop
+恢复|删除指定"草稿箱"内容 : git stash <stash-id>,例如 git stash apply stash@{0}

@@ -1,3 +1,4 @@
+撤销更改
 丢弃工作区更改: git restore -- <file>
 丢弃暂存区更改: git reset HEAD <file>
 丢弃本地版本库更改: git reset --hard HEAD^
