@@ -6,3 +6,4 @@ git commit c1
 git commit c2 and c3
 git checkout -b dev
 fast forward not recommend
+Happy coding
