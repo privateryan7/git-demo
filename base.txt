@@ -1,0 +1,8 @@
+基础知识
+
+git add 是工作区更新到暂存区
+git commit 是暂存区更新到版本库
+git reset HEAD 是版本库更新到暂存区
+git checkout -- <file> 是暂存区更新到工作区
+git checkout HEAD <file> 是版本库同时更新暂存区和工作区
+git rm --cached 清空暂存区
