@@ -1,0 +1,43 @@
+忽略规则
+
+# 忽略 `*.a` 文件
+*.a
+# 忽略 `*.A` 文件,但 `somefile.A` 除外.
+*.A
+!somefile.A
+
+# 忽略 `*.b` 和 `*.B` 文件
+*.[bB]
+# 忽略 `*.c` 和 `*.C` 文件,但 `somefile.C` 除外.
+*.[cC]
+!somefile.C
+
+# 只忽略 `somepath/` 目录(包括该目录下所有文件),但不忽略 `somepath` 文件
+somepath/
+# 只忽略 `somepath/` 一级子目录下 `*.txt`,但不忽略 `somepath/sub/*.txt` 文件
+somepath/*.txt
+
+# 忽略 `somepath` 文件和 `somepath` 目录
+somepath
+# 只忽略 `somepath` 文件,但不忽略 `somepath/` 目录
+somepath
+!somepath/
+
+# 只忽略当前目录下的 `somepath` 文件和目录,但不忽略子目录的 `somepath`
+/somepath
+
+
+提交 .gitignore 文件
+忽略文件规则配置完毕后,需要将该文件提交到版本库,这样在其他电脑上也能应用相同的忽略规则.
+
+# 生成`.gitignore`
+touch .gitignore
+
+# 添加 `.gitignore` 
+git add .gitignore
+
+# 提交 `.gitignore` 
+git commit -m "add .gitignore"
+
+# 上传 `.gitignore`
+git push origin master
